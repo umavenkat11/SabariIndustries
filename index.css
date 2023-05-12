@@ -1,0 +1,53 @@
+
+    html:focus-within {
+        scroll-behavior: smooth;
+    }
+    html,
+    body {
+     height:100%;
+    }
+    
+    body {
+        text-rendering: optimizeSpeed;
+        line-height: 1.5;
+    }
+    img,
+    picture,
+    svg {
+        max-width: 100%;
+        display:block;
+    }
+    footer {
+        background-color: rgb(70, 65, 65);
+        color: antiquewhite;
+        width: 100%;
+    }
+.card-cover {
+    background-color: #0d6efd;
+    color: antiquewhite;
+    padding-left:50px;
+} 
+.p-5 {
+    background-image: url("./source/image/cooking-utensils-dark.jpg");
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#about {
+    background-image: url("./source/image/tube-bender-g4ba7aad09_1920\ -\ dark.jpg");
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#contact {
+    background-image: url("./source/image/contact-us-4193523_1920.jpg");
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container-fluid {
+    color: white;
+}
